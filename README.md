@@ -32,13 +32,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Uma página inicial de login. Totalmente responsiva, animada (pelo JS) e com versão mobile 💡.
+Uma página inicial. Totalmente responsiva, animada (pelo JS) 💡.
 
-- [Visite o projeto online](pedrohenrikle.github.io/login-page)
+- [Visite o projeto online e teste agora mesmo!](pedrohenrikle.github.io/sidebar)
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/SX8XFyC5fAY09ai8Oykz0T/DD-%2F-Login-Form---CSS/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](<https://www.figma.com/file/yh0e9ysHYUh743huO57ktb/DD-%2F-Sidebar-Responsiva-(Copy)?node-id=0%3A1&t=GcbQXZtNrHMN3R5g-0>). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
@@ -46,4 +46,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥
+Feito com ♥ - by Pedro Klein

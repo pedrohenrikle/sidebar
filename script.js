@@ -11,13 +11,13 @@ let userimg = document.querySelector(".userimg");
 function openCloseAside() {
   if (count == 1) {
     sidebar.classList.toggle("inactive");
-    logo.src = "/img/logo.svg";
+    logo.src = "./img/logo.svg";
     paragraph.forEach(function (paragraph) {
       paragraph.style.fontSize = "15px";
     });
     searchBox.classList.toggle("inactive");
     sidebarIcon.style.marginLeft = "119px";
-    user.src = "/img/photo.jpg";
+    user.src = "./img/photo.jpg";
     user.classList.toggle("inactive");
 
     count = 0;
