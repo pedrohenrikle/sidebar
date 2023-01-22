@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Sidebar</title>
+  </head>
+  <body>
+    <aside id="sidebar">
+      <section>
+        <div id="logo">
+          <img src="/img/logo.svg" class="vetshop" /><button
+            id="btn"
+            onclick="openCloseAside()"
+          >
+            <img src="/img/menu.svg" />
+          </button>
+        </div>
+        <div id="search-box">
+          <a href="#" class="search-btn">
+            <img src="/img/search.svg" />
+          </a>
+          <input type="search" class="search-txt" placeholder="Buscar" />
+        </div>
+        <div class="links">
+          <ul class="linkul">
+            <li>
+              <a href="/index.html"
+                ><img src="/img/grid.svg" class="imglinks" />
+                <p class="linkp">Dashboard</p></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="/img/pet.svg" class="imglinks" />
+                <p class="linkp">Pets</p></a
+              >
+            </li>
+            <li>
+              <a href="/pages/clients.html"
+                ><img src="/img/user.svg" class="imglinks" />
+                <p class="linkp">Clientes</p></a
+              >
+            </li>
+            <li>
+              <a href="/pages/vets.html"
+                ><img src="/img/vet.svg" class="imglinks" />
+                <p class="linkp">Vets</p></a
+              >
+            </li>
+            <li>
+              <a href="/pages/settings.html"
+                ><img src="/img/settings.svg" class="imglinks" />
+                <p class="linkp">Ajustes</p></a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="login">
+        <div id="user">
+          <img src="/img/photo.jpg" class="userimg" />
+          <div class="name">
+            <p>Eleanor Pena</p>
+            <p>Veterinária</p>
+          </div>
+
+          <button id="logout">
+            <img src="/img/log-out.svg" class="logoutimg" />
+          </button>
+        </div>
+      </div>
+    </aside>
+    <h1>Pets</h1>
+    <script src="/script.js"></script>
+  </body>
+</html>
