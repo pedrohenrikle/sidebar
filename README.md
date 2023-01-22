@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Uma página inicial. Totalmente responsiva, animada (pelo JS) 💡.
 
-- [Visite o projeto online e teste agora mesmo!](pedrohenrikle.github.io/sidebar)
+- [Visite o projeto online e teste agora mesmo!](https://pedrohenrikle.github.io/sidebar/)
 
 ## 🔖 Layout
 
