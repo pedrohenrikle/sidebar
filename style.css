@@ -34,6 +34,7 @@ body {
 #logo {
   width: 250px;
   padding: 24px 0px 0px 27px;
+  transition: width 0.4s ease;
 }
 
 #logo.inactive {
@@ -56,6 +57,7 @@ body {
 #logo button img {
   width: 24px;
   height: 24px;
+  transition: width 0.4s ease;
 }
 
 .links {
@@ -74,6 +76,7 @@ body {
   border-radius: 12px;
   padding: 13px;
   margin: 26px 14px 20.08px 14px;
+  transition: width 0.3s ease;
 }
 
 #search-box.inactive {
@@ -130,6 +133,7 @@ a:hover {
 
 section.bar {
   flex: 2;
+  transition: width 0.4s ease;
 }
 
 .login {
@@ -138,10 +142,12 @@ section.bar {
   background-color: var(--light-green);
   height: 60px;
   padding: 8px 0px 7px 11px;
+  transition: width 0.4s ease;
 }
 
 section.user-ux {
   display: flex;
+  transition: width 0.4s ease;
 }
 
 #user {
@@ -157,6 +163,7 @@ section.user-ux {
   width: 45px;
   height: 40px;
   border-radius: 12px;
+  transition: width 0.4s ease;
 }
 
 #user .logoutimg {
@@ -170,7 +177,7 @@ section.user-ux {
 }
 
 #user.inactive .name p {
-  display: none;
+  width: 0;
 }
 
 #user.inactive {
@@ -196,10 +203,12 @@ section.user-ux {
 .name p {
   font-size: 15px;
   height: 23px;
+  transition: width 0.4s ease;
 }
 
 .name p:last-child {
   font-size: 12px;
+  transition: width 0.4s ease;
 }
 
 .login button {
